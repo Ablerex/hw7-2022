@@ -23,7 +23,7 @@ console.log("Speed is", video.playbackRate)
 
 document.getElementById("faster").addEventListener("click", function(){
 	console.log("Speed up video")
-	video.playbackRate += 1.10
+	video.playbackRate /= .90
 	console.log("speed is", video.playbackRate)
 });
 
